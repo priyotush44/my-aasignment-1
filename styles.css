@@ -64,6 +64,12 @@
     cursor: pointer;
     margin: 8px;
 }
+.header-body button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
 
 
 /* Header Section Design End */
