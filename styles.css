@@ -1,0 +1,661 @@
+*{
+    font-family: Azeret Mono;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Header Section Design */
+
+.header-body{
+    width: 1440px;
+    height: 652px;
+    background-image: url(assets/Hero-bg.png); 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+
+}
+
+.header-body h2{
+    width: 998px;
+    height: 136px;
+    margin: 0 auto;
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    margin: 5px;
+}
+
+.header-body p{
+    width: 852px;
+    height: 52px;
+    margin: 0 auto;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+
+    opacity: 0.7;
+
+}
+
+.header-body button{
+    position: static;
+    width: 208px;
+    height: 66px;
+    padding: 21px 24px 21px 24px;
+    margin: 32px 0px;
+
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+
+/* Header Section Design End */
+
+
+
+
+/* Maing Section Design */
+
+.main{
+
+    width: 1140px;
+    height: 1395px;
+    padding: 80px 97px;
+    box-sizing: border-box;
+
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    /* border: 1px solid red; */
+    margin: 40px auto;
+}
+
+.main-body{
+    width: 946px;
+    height: 1235px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 0px;
+    margin: 0px 10px;
+
+    background: rgb(255, 255, 255);
+    /* border: 1px solid red; */
+}
+
+.main-body h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top:2px ;
+}
+.main-body p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 10px;
+
+}
+
+
+.card{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    width: 946px;
+    height: 336px;
+    padding: 48px;
+    box-sizing: border-box;
+
+    margin: 25px 0px 0px 0px;
+    border-radius: 16px;
+    /* border: 1px solid red; */
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);  
+
+}
+
+.card-left{
+
+    width: 477px;
+    height: 240px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 10px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+
+}
+
+
+h4{
+
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+
+.card-left p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+}
+
+
+button{
+
+    position: static;
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    cursor: pointer;
+}
+
+.card-right{
+
+    width: 274.17px;
+    height: 240px;
+    margin: 0px 10px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+
+/* Maing Section End */
+
+
+
+/* My Inspiration Section Design */
+
+
+.my-inspiration{
+    width: 1140px;
+    height: 777px;
+    margin: 40px auto;
+    /* border: 1px solid red; */
+}
+.my-inspiration-text{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.my-inspiration-text h2{
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+
+.my-inspiration-text p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+
+.my-inspiration-video{
+
+    width: 1140px;
+    height: 614px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+    margin: 48px 0px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+
+.my-inspiration-video iframe{
+    width: 1076px;
+    height: 550px;
+    margin: 10px 0px;
+    border-radius: 16px;
+
+}
+/* My Inspiration Section Design End */
+
+
+
+
+
+
+
+/* My Current Target Section Design */
+
+.my-current-target{
+    width: 1140px;
+    height: 470px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 10px auto;
+
+    /* border: 1px solid red; */
+
+}
+.my-current-target-text{
+    width: 946px;
+    height: 115px;
+    margin: 10px 0px;
+}
+.my-current-target-text h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+
+.my-current-target-text p{
+    width: 852px;
+    height: 52px;
+    margin: 24px 0px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+
+}
+
+.my-current-target-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 1140px;
+    height: 300px;
+    padding: 0px;
+    margin: 48px 20px;
+
+
+}
+
+.my-current-target-card-body{
+
+    width: 284px;
+    height: 220px;
+    padding: 20px;
+    margin: 32px 0px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    
+    
+}
+
+
+.my-current-target-card-body h4{
+    width: 284px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin: 15px 0;
+}
+
+
+.my-current-target-card-body p{
+    width: 284px;
+    height: 52px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin: 20px 0;
+
+}
+
+
+.my-current-target-card-body a{
+    width: 284px;
+    height: 25px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 20px;
+    text-decoration-line: underline;
+}
+
+/* My Current Target Section Design End */
+
+
+
+
+
+
+/* My Next Target Section Design */
+
+.my-next-target{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 1140px;
+    height: 871px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 111px auto;
+    /* border: 1px solid red; */
+
+}
+
+.my-next-target h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.my-next-target p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+    margin: 15px 0px;
+
+}
+
+
+
+
+.block{
+
+    width: 1140px;
+    height: 220px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px;
+    margin: 10px 0px;
+    /* border: 1px solid red; */
+
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    /* border: 1px solid red; */
+}
+
+.block-left{
+
+    width: fit-content;
+    height: 140px;
+    /* border: 1px solid red; */
+    object-fit: cover;
+    
+}
+
+.block-left img{
+    margin-top: 25px;
+}
+
+.block-right{
+    width: 941.22px;
+    height: 140px;
+
+    padding: 5px;
+    margin: 16px 0px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.block-right h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.block-right p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin: 20px 0;
+
+    }
+
+.block-right a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin-bottom: 0px;
+}
+
+/* My Next Target Section Design End */
+
+
+
+
+
+/* <!-- I need Support Section --> */
+
+.i-need-support{
+
+    width: 1140px;
+    height: 288px;
+
+    left: 150px;
+    right: 150px;
+    top: 4752px;
+    bottom: 205px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 64px 48px 64px 48px;
+    /* border: 1px solid red; */
+    border-radius: 16px;
+    margin: 0 auto;
+    border-radius: 16px;
+
+    background-image: url(../assets/handshake.jpg);
+
+
+}
+
+
+.i-need-support-body{
+    width: 1044px;
+    height: 160px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 32px 0px;
+
+}
+
+.i-need-support-body-text h4{
+    width: 330px;
+    height: 36px;
+
+    padding: 0px;
+    margin: 16px 0px;
+
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.i-need-support-body-text p{
+    width: 606px;
+    height: 26px;
+    margin: 20px 0px;
+    opacity: 0.7;
+    text-align: center;
+
+
+    
+}
+
+.i-need-support-body-form input{
+
+
+    position: static;
+    width: 548px;
+    height: 58px;
+
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+
+    margin: 0px 16px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+
+.btn {
+
+
+width: 120px;
+height: 58px;
+padding: 17px 20px 17px 20px;
+margin: 0px 16px;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+
+
+}
+
+
+/* Footer Section */
+
+.footer{
+
+
+    position: absolute;
+    width: 100%;
+    height: 50px;
+
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 120px;
+
+    border-radius: 16px;
+    /* border: 1px solid red; */
+    background: rgba(13, 19, 33, 0.03);
+
+    margin: 15px auto;
+
+}
+
+
+
+/* The End Of Design */
+
+
+
+
+
+
+
